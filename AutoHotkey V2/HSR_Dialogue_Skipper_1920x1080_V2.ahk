@@ -9,7 +9,7 @@ F12::
     startTime := A_TickCount
     while bFlag && (A_TickCount - startTime <= 60000)
     {
-        MouseClick("left", 960, 530)
+        MouseClick("left", 960, 500)
         Sleep(10)
     }
     bFlag := false
